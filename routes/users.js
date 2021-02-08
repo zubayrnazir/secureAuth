@@ -22,9 +22,4 @@ router.route('/oauth/google').post(passportGoogle, UserController.googleoauth)
 
 router.route('/oauth/facebook').post(passportFacebook, UserController.facebookoauth)
 
-
-// router.get('/', function (req, res, next) {
-//   res.send('respond with a resource');
-// });
-
 module.exports = router;
